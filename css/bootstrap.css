@@ -3994,11 +3994,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eee;
 }
 .nav > li.disabled > a {
-  color: #777;
+  color: #cf5300;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #777;
+  color: #cf5300;
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
