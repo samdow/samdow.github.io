@@ -1100,6 +1100,17 @@ a {
   color: #cf5300;
   text-decoration: none;
 }
+
+a:link {
+  color: #cf5300;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cf5300;
+  text-decoration: none;
+}
+
 a:hover,
 a:focus {
   color: #23527c;
