@@ -450,7 +450,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .OutlineText {
-    font: Tahoma, Geneva, sans-serif;
+    font: Merriweather,'Helvetica Neue',Arial,sans-serif;
     font-size: 20px;
     color: white;
     text-shadow:
@@ -466,8 +466,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .OutlineTextBig {
-    font: Tahoma, Geneva, sans-serif;
-    font-size: 80px;
+    font: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-size: 120px;
     color: white;
     text-shadow:
     /* Outline */
