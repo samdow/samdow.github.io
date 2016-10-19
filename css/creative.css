@@ -471,14 +471,14 @@ fieldset[disabled] .btn-primary.active {
     color: #F2853B;
     text-shadow:
     /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000; /* Terminate with a semi-colon */
+    -5px -5px 0 #000000,
+    5px -5px 0 #000000,
+    -5px 5px 0 #000000,
+    5px 5px 0 #000000,  
+    -10px 0 0 #000000,
+    10px 0 0 #000000,
+    0 10px 0 #000000,
+    0 -10px 0 #000000; /* Terminate with a semi-colon */
 }
 
 
