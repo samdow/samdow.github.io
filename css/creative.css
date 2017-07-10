@@ -178,8 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/Train.jpg);
-    background-position: center;
+    background-color: #43464B;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
