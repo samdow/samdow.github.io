@@ -173,7 +173,8 @@ aside {
 }
 
 header {
-    background-color: #43464B;
+    background-image: url(../img/Website-Design-Background.jpg);
+    background-position: center;
 }
 
 header .header-content {
