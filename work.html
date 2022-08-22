@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Samantha Andow</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+<body>
+    <div class="wrapper">
+  <header>
+    <h1>Work</h1>
+    <p>All places I've worked</p>
+  </header>
+  <section>
+    <h2>Jun 2021-Present</h2>
+      <ul>
+        <li>Still at Meta, transfered to PyTorch team (and to New York)</li>
+        <li>I work mostly on functorch (<a href="https://github.com/pytorch/functorch/pulls?q=is%3Apr+author%3Asamdow">)most functorch PRs</a>, including designing and implementing <a href="https://github.com/pytorch/functorch/pull/409">our randomness API</a>)</li>
+        <li>Other than that, I've also developed the <a href="https://dev-discuss.pytorch.org/t/an-efficient-way-to-compute-per-sample-gradients/695">ExpandedWeights API</a> which let users compute per sample gradients. This was used by <a href="https://github.com/pytorch/opacus">the Opacus team</a> to make their library twice as fast</li>
+        <li>Finally, I built and improved the <a href="https://dev-discuss.pytorch.org/t/torchdispatchmode-for-debugging-testing-and-more/717">TorchDispatchMode system</a>. This lets users add behavior on all calls, which is necessary for <a href="https://github.com/pytorch/torchdynamo">tracing by torchdynamo</a> and made debugging easier for developers</li>
+      </ul>
+    <h2>Aug 2018-Jun 2021</h2>
+      <ul>
+        <li>At Meta, developed <a href="https://ai.facebook.com/blog/paving-the-way-for-software-20-with-kotlin/">a differentiable programming framework in Kotlin</a></li>
+        <li>I worked on compiler plugin that adds a function in the IR that computes the backwards formula without needing a tape-based implementation</li>
+        <li>After we decided that we shouldn't move forward with this plugin, I switched to optimizing our <a href="https://github.com/facebookresearch/diffkt">runtime, tape-based system</a></li>
+      </ul>
+    <h2>School Year 2017-2018</h2>
+      <ul>
+        <li>For a clinic project, I worked with Steelcase to develop a mobile system to detect wood veneer color</li>
+        <li>We built a box with an onboard Raspberry Pi and camera to eliminate outside light and control the environment when doing the color detection</li>
+        <li>In doing so, I also rewrote their original color detection system to be significantly faster</li>
+        <li><a href="https://www.hmc.edu/clinic/2018/wood-veneer-classification-and-cataloguing-mobile/">Writeup from Harvey Mudd College</a></li>
+      </ul>
+    <h2>Summer 2017</h2>
+      <ul>
+        <li>As a SWE intern at Microsoft, I built a prototype that showed Kubernetes could run in a distributed system</li>
+        <li>It ran each part of the Kubernetes system in a different Docker container on a different machine. Then, when one of the instances went down, it would be able to self replicate on the same Docker container</li>
+      </ul>
+    <h2>Summer 2016</h2>
+      <ul>
+        <li>As a research assistant at Harvey Mudd College, I developed a new middle school CS curriculum called MyCS</li>
+        <li>Rewrote much of the previous curriculum and taught it to 3 different sets of teachers who use it in their classrooms</li>
+      </ul>
+  </section>
+</body>
+</html>
